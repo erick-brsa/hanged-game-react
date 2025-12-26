@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+body {
+  font-family: 'JetBrains Mono';
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  /* margin: 60px; */
+  align-items: center;
+}
+
+.image-container {
+  height: 450px;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+}
+
+.buttons-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+/* From Uiverse.io by KhelVers */
+.button {
+  cursor: pointer;
+  font-size: large;
+  font-family: inherit;
+  font-weight: bold;
+  color: #0011ff;
+  background-color: #f8f8fd;
+  padding: 0.8em 2.2em;
+  border-radius: 50em;
+  border: 6px solid #8b93f8;
+  box-shadow: 0px 8px #1f35ff;
+}
+
+.button:active {
+  position: relative;
+  top: 8px;
+  border: 6px solid #646fff;
+  box-shadow: 0px 0px;
+}
